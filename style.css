@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    background-color:bisque;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    font-size: 30px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    margin-right: 10px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: burlywood;
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+#todolist,
+#donelist {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todolist li,
+#donelist li {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#todolist li button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+#todolist li button:hover {
+    background-color: #0b7dda;
+}
+
+#donelist li {
+    background-color: #d3f8d3;
+    text-decoration: line-through;
+    color: #888;
+}
+
+#complete li {
+    cursor: pointer;
+}
