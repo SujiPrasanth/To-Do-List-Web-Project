@@ -20,6 +20,14 @@ A responsive and user-friendly To-Do List application built using HTML, CSS, and
 │── style.css
 │── script.js
 
+# My To-Do List Project
+
+Here are the screenshots of my project:
+
+![Output1](output/Output1.png)
+![Output2](output/output2.png)
+![Output3](output/output3.png)
+
 ## ▶️ How to Run
 1. Download or clone the repository
 2. Open `index.html` in your browser
