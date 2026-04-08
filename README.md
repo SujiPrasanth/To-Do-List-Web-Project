@@ -21,7 +21,9 @@ A responsive and user-friendly To-Do List application built using HTML, CSS, and
 Here are the screenshots of my project:
 
 ![Output1](output/Output1.png)
+
 ![Output2](output/output2.png)
+
 ![Output3](output/output3.png)
 
 ## ▶️ How to Run
