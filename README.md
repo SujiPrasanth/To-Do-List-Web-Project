@@ -16,14 +16,12 @@ A responsive and user-friendly To-Do List application built using HTML, CSS, and
 - JavaScript (Vanilla JS)
 
 ## 📂 Project Structure
-
 To-Do-List-HTML-CSS-JS-Webpage/
-
 │
 ├── index.html # Main HTML file
 ├── style.css # CSS styles
 ├── script.js # JavaScript
-├── output/ # images and screenshots
+├── output/ # Images and screenshots
 └── README.md # Project documentation
 
 # My To-Do List Project
